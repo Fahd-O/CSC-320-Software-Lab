@@ -1,0 +1,141 @@
+p,ul,ol,a,div,input[class='submitBtn']
+{
+    font-size: large;
+}
+
+body
+{
+    font-family: arial;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+ol
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+header
+{
+    border-bottom: 3px #f4f4f4 solid;
+    
+}
+
+footer
+{
+    border-top: 3px #f4f4f4 solid;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main
+{
+    padding-bottom: 20px;
+}
+
+a.start
+{
+    display: inline-block;
+    color: #666;
+    background: #f4f4f4;
+    border: 1px dotted #ccc;
+    border-radius:2rem;
+    padding: 6px 13px;
+}
+
+.submitBtn
+{
+    display: inline-block;
+    color: #666;
+    background: #f4f4f4;
+    border: 1px dotted #ccc;
+    border-radius:2rem;
+    padding: 6px 13px;
+}
+
+label
+{
+    display: inline-block;
+    width: 180px;
+}
+
+input[type='text']
+{
+    width: 97%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+input[type='number']
+{
+    width: 50px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.current
+{
+    padding: 10px;
+    background: #f4f4f4;
+    border: 1px dotted #ccc;
+    border-radius:2rem;
+    margin: 20px 0px 10px 0px;
+}
+
+@media only screen and (max-width:960px)
+{
+    .container
+    {
+        width: 80%;
+    }
+}
+
+.success
+{
+    margin-top :5%;
+    text-align:center;
+    color:white; 
+    background:limegreen; 
+    font-size:large; 
+    border-radius:2rem; 
+    padding:1%;
+}
+.error
+{
+    text-align:center;
+    color:white; 
+    background:red; 
+    font-size:large; 
+    border-radius:2rem; 
+    padding:1%;
+    margin: 2% auto;
+}
+
+.qLinkBtn
+{
+    padding: 3%;
+    margin: 5px;
+    font-size:large;
+    color: black;
+    border: 1px dotted #ccc;
+    border-radius:1rem; 
+}
+
+.qLink
+{
+    color : black;
+}
