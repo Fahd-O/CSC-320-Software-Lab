@@ -1,4 +1,4 @@
-# Learning-HTML-and-CSS-with-Quentin-Watt
+# CSC 320 Software Lab Project
 
 ## Project Overview
 
