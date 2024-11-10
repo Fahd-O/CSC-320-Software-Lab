@@ -62,11 +62,16 @@ No further updates are planned as this repository serves as an archive of course
 
 ## Screenshots
 
-Here are screenshots of the project files and folder📂 properties:
+Here are screenshots of the project fullstack UI:
 
-![Project UI Screenshot](./images/)
-![Project UI Screenshot](./images/)
-![Project UI Screenshot](./images/)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.14.55%20AM.png)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.31%20AM.png)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.38%20AM.png)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.45%20AM.png)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.49%20AM.png)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.17.20%20AM.png)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.17.35%20AM.png)
+![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.18.57%20AM.png)
 
 ## Deployment
 
