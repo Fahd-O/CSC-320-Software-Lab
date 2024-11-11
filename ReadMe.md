@@ -2,11 +2,20 @@
 
 ## Project Overview
 
-Here is my CSC320 Software Lab Project repo. It was a group work and our project was to build a working Multiple Choice Question (MCQ) Computer Based Test (CBT) Web App with a Fingerprint Biometric Login System... Sadly the we (or should I say "I". A single person ended up doing the work a group.) were able to build a working MCQ web app but couldn't achieve the fingerprint biometric login part.
+This repository contains my CSC320 Software Lab Project, a core course from my third year in university. Although it was assigned as a group project with three members, I completed the entire development independently, with my group members contributing only by testing the final product.
 
-This project was completed between **November 2022 and March 2023**.
+The goal was to build a Multiple Choice Question (MCQ) Computer-Based Test (CBT) web application featuring a Fingerprint Biometric Login System. Unfortunately, due to hardware limitations, software constraints, limited knowledge, and time constraints, the fingerprint login feature was not fully implemented. However, a fully functional MCQ CBT application was successfully developed.
 
-Four versions of the project were developed. One is just frontend and the three other iterations are fullsatack.
+This project evolved through four versions:
+
+- **Frontend Prototype**: The initial version was a frontend-only prototype, built using HTML, CSS, and JavaScript.
+- **Version 1**: A complete MCQ CBT application with full functionality.
+- **Version 2**: Added a login/sign-up system to enhance user access control.
+- **Version 3**: Involved code and folder restructuring for better organization and maintainability.
+
+The technologies used in this project (PHP, CSS, JavaScript, HTML) were selected based on available resources and commonly used tools. Tutorial videos on YouTube were instrumental in guiding and customizing the application to meet project requirements.
+
+This project was completed between **January 2022 and November 2022**.
 
 ## Table of Contents
 
