@@ -1,10 +1,20 @@
-# CSC 320 Software Lab Project/Frontend
+# CSC 320 Software Lab Project / Frontend
 
-This Frontend version was developed using HTML, CSS and JS
+This is the frontend prototype of the CSC 320 Software Lab Project. It was developed using **HTML**, **CSS**, and **JavaScript** to serve as an initial proof of concept for the MCQ Computer-Based Test (CBT) application.
 
-## Note to Self
+## Features
 
-- Reconstruct this ReadMe file later.
-- There appears to be an error in the score calculation. Checkback later...
+- **Simple UI for CBT**: Provides a basic interface for taking MCQ tests.
+- **Score Calculation**: Calculates scores at the end of the test.
 
-Check out GitPage deployment here: <https://fahd-o.github.io/CSC-320-Software-Lab/Frontend/>
+## Known Issues
+
+- **Score Calculation Bug**: There is an issue in the score calculation logic that requires further debugging.
+
+## Next Steps
+
+- **Bug Fix**: Investigate and resolve the score calculation error.
+
+## Deployment
+
+This frontend version is deployed on GitHub Pages. You can view it [here](https://fahd-o.github.io/CSC-320-Software-Lab/Frontend/).
