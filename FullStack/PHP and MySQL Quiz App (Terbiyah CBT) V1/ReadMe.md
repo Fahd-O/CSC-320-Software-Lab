@@ -1,41 +1,29 @@
-# PHP and MySQL Quiz App Complete(Terbiyah CBT)
+# CSC 320 Software Lab Project / FullStack V1 (Terbiyah CBT)
 
-## Introduction
+This is the first fullstack version of my CSC320 Software Lab Project named 'Terbiyah CBT'. It provides a basic yet functional platform for conducting multiple-choice tests online.
 
- This here is a simple computer based test computer web application.
+## Overview
 
-## Goal
+This version is a fully functional Computer-Based Testing (CBT) system with core features for exam administration, such as question display, answer submission, and results calculation. It was developed using **HTML** for structure, **CSS** for styling, and **PHP** for backend functionality.
 
- It should be a complete Computer Based Testing System having all the features required for a Computer Based Test.
+## Key Features
 
-## Features
-
-* Languages used are HTML for web text, CSS for styling and Majorly PHP for the functionality
-
-* Can run from start to finish without problem
-
-* Has three and one viewable pages from the browser: the three are for prospective student to take their exams, 1st page is the index or homepage, 2nd page is where exam is taken and 3rd page show result of exam taken; the remaining one is for the admin to add question to the database
-
-* It is dynamic in nature... the quesion numbers, time for exam, etc
-
-* There is quick access to all question below the current question being attempted
+- **Exam Interface**: Three main pages accessible to students:
+  1. **Home Page**: Entry point to start the test.
+  2. **Exam Page**: Displays questions and allows students to submit answers.
+  3. **Results Page**: Shows the score after test completion.
+- **Admin Panel**: A separate page for administrators to add questions to the database dynamically.
+  - **Dynamic Content**: Question numbers can be set, enhancing flexibility.
+- **Quick Question Navigation**: A navigation panel that provides direct access to specific questions.
 
 ## Limitations
 
-* If the Quick navigation for the question is used, previously selected answers for respective questions will not be seen.
+- **Quick Navigation Issue**: Previously selected answers may not appear if accessed through the quick navigation panel.
+- **Answered Questions Visibility**: The navigation panel does not indicate whether a question has been answered. Partial attempts to address this are present in `question.php` (line 91), though unfinished.
+- **Score Duplication Bug**: Revisiting a previously answered question (either via the quick navigation or browser back button) and submitting it again may lead to the question being scored twice, potentially inflating the total score. A tracking system for answered questions is needed to prevent this.
+- **No Timer**: There is no countdown or automatic submission upon time expiration.
+- **No Login or Score Storage**: This version lacks user authentication, and scores are not saved to the database.
 
-* There is no way to tell from the question quick navigation whether a question has been answered or not. In the "question.php" file, line 91, effort to correct this was made but I couldn't finish working on it due to time constraint
+## Known Issues & Future Considerations
 
-* If the correct answer was previous selected for a question, it is recorded as one point else no point, however, if any of the previously answered question is revisited either through the quick question navigation or using the back button of the browser and is answered again, the score for that gets recorded a second time, making it possible to even score higher than the total score attainable. A means of taking note of answered questions and their answers needs to be put in place to rectify this limitation and the preceeding limitation above.
-
-* There is no timer for the exam and no way for exam to automatically submit once time for it has elasped
-
-* No login system and no way to save user score to database
-
-## Possible bug in the future
-
-The "dbh.php" file may need to be reviewed in the future if there is some kind of error with connecting to the database. As the method used to connect to it tells the exact error, if any, in the connection, which is why it was used.
-
-However, I'm not fully aware of how it should be used or how it will work with other codes, yet to be written.
-
-THE CODE SNIPPET:  "new mysqli(..." is used in place of "mysqli_connect(..."
+- **Database Connection**: The `dbh.php` file uses `new mysqli(...)` for database connection instead of `mysqli_connect(...)`. This approach provides specific error messages if a connection fails. However, the compatibility of this method with future code additions is untested.
