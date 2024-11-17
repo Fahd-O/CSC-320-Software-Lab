@@ -6,16 +6,22 @@ This repository contains my CSC320 Software Lab Project, a core course from my t
 
 The goal was to build a Multiple Choice Question (MCQ) Computer-Based Test (CBT) web application featuring a Fingerprint Biometric Login System. Unfortunately, due to hardware limitations, software constraints, limited knowledge, and time constraints, the fingerprint login feature was not fully implemented. However, a fully functional MCQ CBT application was successfully developed.
 
-This project evolved through four versions:
+This project evolved through five versions:
 
-- **Frontend Prototype**: The initial version was a frontend-only prototype, built using HTML, CSS, and JavaScript.
+### Frontend-Only
+
+- **Version 1**: Provides a basic interface for taking MCQ tests. Calculates scores at the end of the test.
+- **Version 2**: Further tuned to meet specific project goals with minor enhancements compared to Version 1.
+
+### FullStack
+
 - **Version 1**: A complete MCQ CBT application with full functionality.
 - **Version 2**: Added a login/sign-up system to enhance user access control.
 - **Version 3**: Involved code and folder restructuring for better organization and maintainability.
 
 The technologies used in this project (PHP, CSS, JavaScript, HTML) were selected based on available resources and commonly used tools. Tutorial videos on YouTube were instrumental in guiding and customizing the application to meet project requirements.
 
-This project was completed between **January 2022 and November 2022**.
+This project was completed between **February 2022 and November 2022**.
 
 ## Table of Contents
 
@@ -57,7 +63,7 @@ This project aimed to:
 
 ## Challenges and Solutions
 
-Time constraint, lack of resources, insufficient knowledge, lack of support and tutor direction.
+Time constraint, lack of resources, insufficient knowledge, lack of support and tutor direction. Managed available resources, seached online, followed relevant youtube tutorial videos
 
 ## How to Run the Project
 
@@ -71,7 +77,7 @@ No further updates are planned as this repository serves as an archive of course
 
 ## Screenshots
 
-Here are screenshots of the project fullstack UI:
+Here are screenshots of the project fullstack version UI:
 
 ![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.14.55%20AM.png)
 ![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.31%20AM.png)
@@ -84,7 +90,10 @@ Here are screenshots of the project fullstack UI:
 
 ## Deployment
 
-Check out GitPage deployment for the Frontend version here: <https://fahd-o.github.io/CSC-320-Software-Lab/Frontend/>
+Check out GitPage deployment for the Frontend version 1 & 2 here:
+
+- [Frontend version 1](https://fahd-o.github.io/CSC-320-Software-Lab/Frontend/Customized-Version-1/)
+- [Frontend version 2](https://fahd-o.github.io/CSC-320-Software-Lab/Frontend/Customized-Version-2/)
 
 ## License
 

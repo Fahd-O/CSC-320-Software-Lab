@@ -1,0 +1,13 @@
+#test
+    {
+        border:#000 1px solid; 
+        padding:10px 40px 40px 40px;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+        border-radius: 2rem;
+    }
+
+body
+{
+    background: linear-gradient(to bottom, green, green, white);
+    height: 100vh;
+}
