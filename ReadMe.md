@@ -77,8 +77,9 @@ No further updates are planned as this repository serves as an archive of course
 
 ## Screenshots
 
-Here are screenshots of the project fullstack version UI:
+Here are screenshots of the project folder property and fullstack version UI:
 
+![Project Folder Property](./images/CSC320%20Folder%20Property.png)
 ![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.14.55%20AM.png)
 ![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.31%20AM.png)
 ![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.38%20AM.png)
