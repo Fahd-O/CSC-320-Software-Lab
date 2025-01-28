@@ -49,6 +49,7 @@ function renderQuestion()
 function checkAnswer()
 {
     choices = document.getElementsByName("choices");
+    choice = null; //quiz score miscalculation bug fix
     for(var i=0; i<choices.length; i++)
     {
         if(choices[i].checked)
