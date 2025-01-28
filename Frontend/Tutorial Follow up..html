@@ -67,7 +67,7 @@
         function checkAnswer()
         {
             choices = document.getElementsByName("choices");
-            choice = null;
+            choice = null; //quiz score miscalculation bug fix
             for (var i = 0; i < choices.length; i++)
             {
                 if (choices[i].checked)
@@ -80,7 +80,7 @@
             if (choice == questions[pos][4])
             {
                 correct++;
-                
+
             }
             pos++;
 
